@@ -50,3 +50,9 @@ body {
 .animate-pulse-ring {
   animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+/* Hero section — use dvh so mobile browser chrome is excluded */
+.hero-height {
+  min-height: 100vh;
+  min-height: 100dvh;
+}

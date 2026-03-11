@@ -8,7 +8,7 @@ import { Translations } from "@/data/translations";
 
 export function HeroSection({ t, lineOaUrl, phoneNumber, bgImage }: { t: Translations, lineOaUrl: string, phoneNumber: string, bgImage: string }) {
   return (
-    <section className="relative h-screen min-h-[750px] flex items-center justify-center overflow-hidden">
+    <section className="relative hero-height flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image src={bgImage} alt="Nature landscape" fill className="object-cover object-center" priority sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/80" />
