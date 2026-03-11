@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-
+import { siteConfig } from "@/config/site";
 import { Translations } from "@/data/translations";
 
 export function ArticlesSection({ t, lang }: { t: Translations; lang: string }) {
@@ -33,7 +33,7 @@ export function ArticlesSection({ t, lang }: { t: Translations; lang: string }) 
             >
               <div className="relative w-full h-[240px] overflow-hidden">
                 <Image 
-                  src={article.image} 
+                  src={siteConfig.articleImages[article.id] || (article as { image?: string }).image || ""} 
                   alt={article.title} 
                   fill 
                   className="object-cover transition-transform duration-700 group-hover:scale-110"

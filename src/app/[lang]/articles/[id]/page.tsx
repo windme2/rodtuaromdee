@@ -41,7 +41,7 @@ export async function generateMetadata({
     openGraph: {
       title: article.title,
       description: article.desc,
-      images: [article.image],
+      images: [siteConfig.articleImages[article.id] || (article as { image?: string }).image || ""],
     },
     alternates: {
       canonical: `/${lang}/articles/${article.id}`,
@@ -57,7 +57,7 @@ export default async function ArticlePage({
   const resolvedParams = await params;
   const lang = resolvedParams.lang as Lang;
   const { id } = resolvedParams;
-
+  
   const t = translations[lang];
   const article = t.articles.items.find((item) => item.id === id);
 
@@ -78,7 +78,7 @@ export default async function ArticlePage({
           >
             <ChevronLeft size={20} />
             <span className="font-medium text-sm md:text-base">
-              {lang === "en" ? "Back to Articles" : lang === "zh" ? "返回文章" : "กลับไปที่บทความทั้งหมด"}
+              {lang === "en" ? "Back to Home" : lang === "zh" ? "返回首页" : "กลับไปหน้าแรก"}
             </span>
           </Link>
           <Link href={`/${lang}`} className="font-black text-xl text-red-700">
@@ -93,7 +93,7 @@ export default async function ArticlePage({
           {/* Hero Image */}
           <div className="relative w-full h-[300px] md:h-[450px]">
             <Image
-              src={article.image}
+              src={siteConfig.articleImages[article.id] || (article as { image?: string }).image || ""}
               alt={article.title}
               fill
               className="object-cover"
@@ -112,9 +112,17 @@ export default async function ArticlePage({
             </h1>
 
             <div className="prose prose-lg prose-slate max-w-none">
-              <p className="text-slate-600 leading-relaxed text-lg md:text-xl">
-                {article.desc}
-              </p>
+              {/* Render article content if exists, otherwise fallback to description */}
+              {(article as { content?: string }).content ? (
+                <div 
+                  className="text-slate-600 leading-relaxed text-lg md:text-xl space-y-4"
+                  dangerouslySetInnerHTML={{ __html: (article as { content?: string }).content! }} 
+                />
+              ) : (
+                <p className="text-slate-600 leading-relaxed text-lg md:text-xl">
+                  {article.desc}
+                </p>
+              )}
               
               <div className="my-10 p-6 bg-red-50 rounded-xl border border-red-100">
                 <h3 className="text-red-800 font-bold text-xl mb-3">
