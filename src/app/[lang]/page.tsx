@@ -91,7 +91,7 @@ export default function Home({ params }: { params: Promise<{ lang: string }> }) 
       </FadeInSection>
 
       <FadeInSection delay={0.05}>
-        <GallerySection t={t} galleryImages={siteConfig.galleryImages} timelineImages={siteConfig.timelineImages} />
+        <GallerySection t={t} galleryImages={siteConfig.galleryImages} tripImages={siteConfig.tripImages} />
       </FadeInSection>
 
       <FadeInSection delay={0.05}>

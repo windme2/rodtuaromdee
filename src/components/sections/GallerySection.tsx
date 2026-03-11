@@ -12,11 +12,11 @@ type GalleryImage = { src: string; alt: string; span?: string; caption?: string 
 export function GallerySection({
   t,
   galleryImages,
-  timelineImages,
+  tripImages,
 }: {
   t: Translations;
   galleryImages: GalleryImage[];
-  timelineImages?: GalleryImage[];
+  tripImages?: GalleryImage[];
 }) {
   const [lightboxData, setLightboxData] = useState<{ images: GalleryImage[]; index: number } | null>(null);
   const timelineRef = useRef<HTMLDivElement>(null);
@@ -136,11 +136,11 @@ export function GallerySection({
               >
                 <div className="flex gap-4 md:gap-6 w-max px-4 md:px-0">
                   {/* Render twice for seamless infinite loop */}
-                  {[...(timelineImages || galleryImages), ...(timelineImages || galleryImages)].map((img, idx) => (
+                  {[...(tripImages || galleryImages), ...(tripImages || galleryImages)].map((img, idx) => (
                     <div
                       key={`timeline-${idx}`}
                       className="relative w-[280px] h-[380px] md:w-[350px] md:h-[450px] rounded-2xl overflow-hidden shrink-0 group cursor-pointer shadow-lg"
-                      onClick={() => openLightbox(timelineImages || galleryImages, idx % (timelineImages || galleryImages).length)}
+                      onClick={() => openLightbox(tripImages || galleryImages, idx % (tripImages || galleryImages).length)}
                     >
                       <Image
                         src={img.src}
