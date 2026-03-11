@@ -181,7 +181,7 @@ export const translations = {
           date: "15 มี.ค. 2026",
           title: "5 สถานที่เที่ยวใกล้กรุงเทพฯ แบบไปเช้าเย็นกลับ นั่งรถตู้สบายๆ",
           desc: "รวมจุดเช็คอินน่าเที่ยว ตอบโจทย์ทั้งครอบครัวและกลุ่มเพื่อน ให้คุณได้พักผ่อนเต็มที่โดยไม่ต้องขับรถเอง",
-          image: "/assets/images/article_01.webp",
+          image: "/assets/images/article/article_01.webp",
           content: "<p>การเดินทางไปต่างจังหวัดใกล้กรุงเทพฯ ถือเป็นตัวเลือกยอดฮิตสำหรับครอบครัว แต่ปัญหาใหญ่มักจะเป็นเรื่องคนขับที่เหนื่อยล้า รถตู้ VIP พร้อมคนขับมืออาชีพจึงตอบโจทย์ที่สุด</p><p>ด้วยเบาะที่กว้างขวาง นั่งสบาย ระบบแอร์เย็นฉ่ำ และสิ่งอำนวยความสะดวกครบครัน ทำให้ทุกคนในทริปได้สนุกสนานและพักผ่อนร่วมกันอย่างแท้จริง ไม่ต้องกังวลเรื่องการหาที่จอดรถหรือหลงทาง เพราะคนขับของเราเชี่ยวชาญทุกเส้นทาง</p>",
         },
         {
@@ -189,7 +189,7 @@ export const translations = {
           date: "28 ก.พ. 2026",
           title: "เทคนิคจัดสัมมนาต่างจังหวัด ให้ทีมแฮปปี้ งานราบรื่น",
           desc: "แชร์เคล็ดลับการเลือกรถตู้และวางแผนการเดินทางสำหรับองค์กร ให้ถึงที่หมายอย่างปลอดภัยและตรงเวลา",
-          image: "/assets/images/article_02.webp",
+          image: "/assets/images/article/article_02.webp",
           content: "<p>การจัดทริปสัมมนาหรือ Team Building ให้แผนกหรือบริษัท ไม่ใช่เรื่องง่าย เพราะต้องกังวลทั้งเรื่องเวลาและความปลอดภัยของพนักงานทุกคน</p><p>การเลือกใช้บริการรถตู้ส่วนตัวจะช่วยให้การเดินทางเป็นกลุ่มกลายเป็นเรื่องสนุก พนักงานยังสามารถคุยงานหรือเล่นกิจกรรมระหว่างทางได้ เป็นการสร้างความสัมพันธ์ในทีมได้อย่างดีเยี่ยม รถของเรามาพร้อมประกันชั้น 1 เพื่อความอุ่นใจตลอดเส้นทาง</p>",
         },
         {
@@ -197,7 +197,7 @@ export const translations = {
           date: "10 ม.ค. 2026",
           title: "ทำไมถึงควรเช่ารถตู้ VIP พร้อมคนขับมืออาชีพ?",
           desc: "เปรียบเทียบข้อดีที่คุณจะได้รับ ทั้งความสะดวก ความปลอดภัย และการบริการที่ประทับใจตลอดเส้นทาง",
-          image: "/assets/images/article_03.webp",
+          image: "/assets/images/article/article_03.webp",
           content: "<p>ความประทับใจแรกมักจะสำคัญเสมอ ไม่ว่าจะเป็นการรับแขก VIP ลูกค้าธุรกิจ หรือแม้กระทั่งการให้รางวัลตัวเอง</p><p>รถตู้ VIP ของเราออกแบบมาเพื่อการเดินทางเหนือระดับ ด้วยเบาะกัปตันซีทที่สามารถปรับเอนได้อิสระ แสงสว่าง Ambient Light สไตล์เลานจ์หรู ช่วยลดความเหนื่อยล้าจากการนั่งรถนานๆ พร้อมพนักงานขับรถแต่งกายสุภาพและมีมารยาทดีเยี่ยม</p>",
         },
         {
@@ -206,7 +206,7 @@ export const translations = {
           title:
             "แนะนำ 3 ทริปไหว้พระอยุธยา เสริมสิริมงคล เดินทางง่ายในวันเดียว",
           desc: "พาผู้ใหญ่ไปทำบุญแบบไม่เหนื่อย ด้วยรถตู้ VIP แอร์เย็นฉ่ำ นั่งสบายตลอดเส้นทาง",
-          image: "/assets/images/article_04.webp",
+          image: "/assets/images/article/article_04.webp",
           content: "<p>อยุธยาเมืองมรดกโลกที่เต็มไปด้วยวัดเก่าแก่คู่บ้านคู่เมือง การพาญาติผู้ใหญ่ไปไหว้พระ 9 วัด อาจทำให้เหนื่อยและเพลียจากอากาศร้อน</p><p>บริการทริปไหว้พระด้วยรถตู้ VIP จะช่วยให้คุณประหยัดเวลาและพลังงาน โดยรถจะเข้าจอดรอรับส่งบริเวณใกล้จุดที่สุด ผู้สูงอายุไม่ต้องเดินไกล และเมื่อขึ้นรถก็จะได้พักผ่อนในบรรยากาศเย็นสบายตลอดวัน เป็นทริปอิ่มบุญที่สะดวกสบายที่สุด</p>",
         },
         {
@@ -214,7 +214,7 @@ export const translations = {
           date: "20 พ.ย. 2025",
           title: "เคล็ดลับการเดินทางไปสนามบินแบบ VIP หมดกังวลเรื่องเวลา",
           desc: "ทำไมผู้บริหารและนักธุรกิจถึงเลือกใช้บริการรถตู้ส่วนตัวไปสนามบิน",
-          image: "/assets/images/article_05.webp",
+          image: "/assets/images/article/article_05.webp",
           content: "<p>ใครที่เคยต้องแบกกระเป๋าหลายใบเดินหาแท็กซี่ หรือกังวลว่าจะพลาดเที่ยวบินเพราะรถติด น่าจะเข้าใจดีว่าการเดินทางไปสนามบินนั้นเครียดแค่ไหน</p><p>บริการรับ-ส่งสนามบินแบบส่วนตัว ตัดปัญหาความกังวลทั้งหมด เพราะพนักงานขับรถจะมารอรับคุณก่อนเวลาเสมอ ช่วยจัดการสัมภาระ และใช้เส้นทางที่ดีที่สุดเพื่อให้คุณถึงสนามบินอย่างตรงเวลาและผ่อนคลาย พร้อมสำหรับการเดินทางไกล</p>",
         },
         {
@@ -222,7 +222,7 @@ export const translations = {
           date: "2 ต.ค. 2025",
           title: "จัดทริปพัทยาสุดคุ้ม เที่ยวทะเลใกล้กรุงพร้อมครอบครัว",
           desc: "แพลนวันหยุดสุดสัปดาห์ พาเด็กๆ และครอบครัวไปพักผ่อนริมทะเลแบบชิลๆ",
-          image: "/assets/images/article_06.webp",
+          image: "/assets/images/article/article_06.webp",
           content: "<p>วันหยุดยาวทั้งที ทะเลใกล้กรุงอย่างพัทยามักเป็นจุดหมายแรกของใครหลายคน แต่การขับรถเองในช่วงรถติดมักทำให้หมดสนุกตั้งแต่เริ่มทริป</p><p>จองรถตู้พร้อมคนขับไปพัทยา ให้คุณได้พักผ่อนตั้งแต่ก้าวขึ้นรถ เด็กๆ สามารถดูหนังฟังเพลงผ่านหน้าจอทีวีในรถได้อย่างเพลิดเพลิน พร้อมคนขับที่ช่วยแวะจุดพักรถและร้านอาหารดังๆ ให้แบบครบวงจร ทริปนี้มีแต่ความสุขเท่านั้น</p>",
         },
       ],
@@ -498,7 +498,7 @@ export const translations = {
           date: "Mar 15, 2026",
           title: "5 Day Trips Near Bangkok for Family & Friends",
           desc: "A guide to the best spots close to the city. Let our professional drivers take you there comfortably.",
-          image: "/assets/images/article_01.webp",
+          image: "/assets/images/article/article_01.webp",
           content: "<p>Traveling out of Bangkok is a highly popular choice for families, but the biggest issue is usually driver fatigue. A VIP passenger van with a professional driver is the perfect answer.</p><p>With wide, comfortable seats, cool air-conditioning, and full amenities, everyone in your group can genuinely enjoy the trip and relax. There is no need to worry about finding parking or getting lost, as our drivers are experts on all routes.</p>",
         },
         {
@@ -506,7 +506,7 @@ export const translations = {
           date: "Feb 28, 2026",
           title: "How to Plan a Successful Corporate Outing",
           desc: "Tips on arranging transportation for seminars and team-building events to ensure everyone stays happy and productive.",
-          image: "/assets/images/article_02.webp",
+          image: "/assets/images/article/article_02.webp",
           content: "<p>Organizing a seminar or team-building trip is no easy task because you have to worry about both punctuality and the safety of all employees.</p><p>Choosing a private van service makes group travel fun. Employees can discuss work or play games along the way, building excellent team relationships. Our vehicles come with first-class insurance for peace of mind throughout the journey.</p>",
         },
         {
@@ -514,7 +514,7 @@ export const translations = {
           date: "Jan 10, 2026",
           title: "Why Hire a VIP Van with a Professional Driver?",
           desc: "Discover the hidden benefits of premium travel, from unmatched safety records to purely relaxing journeys.",
-          image: "/assets/images/article_03.webp",
+          image: "/assets/images/article/article_03.webp",
           content: "<p>First impressions always matter, whether you are welcoming VIP guests, business clients, or even rewarding yourself.</p><p>Our VIP vans are designed for superior travel. Featuring independently reclining captain seats, elegant lounge-style ambient lighting, they reduce travel fatigue. Paired with politely dressed and highly courteous drivers, the experience is unmatched.</p>",
         },
         {
@@ -522,7 +522,7 @@ export const translations = {
           date: "Dec 5, 2025",
           title: "Top 3 Temple Tours in Ayutthaya for a Blessed Day Trip",
           desc: "Take your elders on a merit-making trip without the fatigue, enjoying our comfortable VIP vans.",
-          image: "/assets/images/article_04.webp",
+          image: "/assets/images/article/article_04.webp",
           content: "<p>Ayutthaya is a world heritage city full of ancient temples. Taking elderly relatives to worship at 9 temples can be exhausting in the hot weather.</p><p>A temple tour in a VIP van saves time and energy. The vehicle parks as close to the points of interest as possible, so the elderly do not have to walk far. Once back on board, they can relax in a cool, comfortable atmosphere all day. It is the most comfortable merit-making trip you can have.</p>",
         },
         {
@@ -530,7 +530,7 @@ export const translations = {
           date: "Nov 20, 2025",
           title: "VIP Airport Transfers: Stress-Free Travel Tips",
           desc: "Why executives and business travelers prefer private van services for their airport transfers.",
-          image: "/assets/images/article_05.webp",
+          image: "/assets/images/article/article_05.webp",
           content: "<p>Anyone who has had to lug multiple bags around looking for a taxi, or worried about missing a flight due to traffic, understands how stressful airport travel can be.</p><p>A private airport transfer service eliminates all worries. The driver will always arrive early, assist with luggage, and use the best route to get you to the airport on time and relaxed, ready for your long journey.</p>",
         },
         {
@@ -538,7 +538,7 @@ export const translations = {
           date: "Oct 2, 2025",
           title: "Planning the Perfect Family Beach Trip to Pattaya",
           desc: "Plan a relaxing weekend getaway with your family and kids by the beach.",
-          image: "/assets/images/article_06.webp",
+          image: "/assets/images/article/article_06.webp",
           content: "<p>For a long weekend, a beach close to the city like Pattaya is often the first choice. But driving yourself in traffic usually ruins the fun from the start.</p><p>Booking a van with a driver to Pattaya lets you relax the moment you step in. Kids can enjoy watching movies or listening to music on the in-car TV. With a driver who will gladly stop at rest areas and famous restaurants, this trip will be nothing but happiness.</p>",
         },
       ],
@@ -811,7 +811,7 @@ export const translations = {
           date: "2026年3月15日",
           title: "曼谷周边 5 个亲子一日游好去处",
           desc: "城市周边最佳景点指南，让我们的专业驾驶员带您舒适前往。",
-          image: "/assets/images/article_01.webp",
+          image: "/assets/images/article/article_01.webp",
           content: "<p>前往曼谷周边旅行是家庭出游的热门选择，但最大的问题往往是疲劳驾驶。带专业司机的 VIP 包车为您提供完美的解决方案。</p><p>宽敞舒适的座椅、凉爽的空调以及齐全的设备，让团队中的每个人都能真正享受旅程并得到放松。因为我们的司机熟悉所有路线，您无需担心找不到停车位或迷路。</p>",
         },
         {
@@ -819,7 +819,7 @@ export const translations = {
           date: "2026年2月28日",
           title: "如何策划一次成功的企业外出活动",
           desc: "研讨会和团建活动交通安排技巧，确保所有人轻松愉快。",
-          image: "/assets/images/article_02.webp",
+          image: "/assets/images/article/article_02.webp",
           content: "<p>组织研讨会或团建绝对不是一件容易的事，因为您需要顾及所有员工的安全和时间安排。</p><p>选择私人包车服务让集体出行变得充满乐趣。员工可以在途中交流工作或进行游戏，极大地促进团队关系。我们的车辆配备一流的保险，让您的旅程全程无忧。</p>",
         },
         {
@@ -827,7 +827,7 @@ export const translations = {
           date: "2026年1月10日",
           title: "为什么要租用配有专业驾驶员的 VIP 包车？",
           desc: "探索高端出行的隐藏优势，从卓越的安全记录到纯粹放松的旅途。",
-          image: "/assets/images/article_03.webp",
+          image: "/assets/images/article/article_03.webp",
           content: "<p>第一印象永远至关重要，无论是接待 VIP 贵宾、商业客户，还是奖励自己。</p><p>我们的 VIP 包车专为卓越的旅行体验而设计。配备可独立倾斜的航空座椅和优雅的休息室风格氛围灯，有效减少旅途疲劳。再加上着装整洁、彬彬有礼的专业司机，体验无可匹敌。</p>",
         },
         {
@@ -835,7 +835,7 @@ export const translations = {
           date: "2025年12月5日",
           title: "大城府三大寺庙祈福之旅，轻松一日游推荐",
           desc: "乘坐我们舒适的 VIP 包车，带长辈轻松进行祈福之旅。",
-          image: "/assets/images/article_04.webp",
+          image: "/assets/images/article/article_04.webp",
           content: "<p>大城府是一座充满古老寺庙的世界遗产城市。带着长辈在炎热的天气里前往 9 座寺庙祈福可能会让人筋疲力尽。</p><p>在 VIP 包车中进行寺庙之旅省时又省力。车辆会尽可能停靠近景点，因此长辈不必走远路。返回车上后，他们可以整日在凉爽舒适的环境中休息。这是一次最舒适的祈福之旅。</p>",
         },
         {
@@ -843,7 +843,7 @@ export const translations = {
           date: "2025年11月20日",
           title: "VIP 机场接送服务指南，无忧出行技巧",
           desc: "为什么高管和商务旅客更喜欢使用私人包车服务前往机场。",
-          image: "/assets/images/article_05.webp",
+          image: "/assets/images/article/article_05.webp",
           content: "<p>每一个曾经拖着多个行李箱寻找出租车，或是因为堵车担心错过航班的人，都深知前往机场带来的压力。</p><p>私人机场接送服务可以消除所有担忧。司机会始终提前到达，协助搬运行李，并使用最佳路线准时安全地将您送达机场，让您为长途旅行做好准备。</p>",
         },
         {
@@ -851,7 +851,7 @@ export const translations = {
           date: "2025年10月2日",
           title: "完美芭提雅家庭海滩之旅规划指南",
           desc: "规划一个与家人和孩子在海滩放松的周末度假。",
-          image: "/assets/images/article_06.webp",
+          image: "/assets/images/article/article_06.webp",
           content: "<p>长周末去像芭提雅这样靠近城市的海滩绝对是首选。但是如果在拥堵的交通中自驾游，通常一出发就会败尽游兴。</p><p>预订带司机的包车前往芭提雅，让您在上车的那一刻就开始放松。孩子们可以在车内电视上看电影或听音乐。拥有一位乐意在休息区和著名餐厅经停的司机，您的旅途将充满欢乐。</p>",
         },
       ],
