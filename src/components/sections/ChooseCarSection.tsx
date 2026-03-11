@@ -7,12 +7,12 @@ import { Users, Briefcase } from "lucide-react";
 import { Translations } from "@/data/translations";
 
 const carImages = [
-  "/assets/images/section_car_camry.webp",
-  "/assets/images/section_car_innova.webp",
-  "/assets/images/section_car_fortuner.webp",
-  "/assets/images/section_car_h1.webp",
-  "/assets/images/section_car_alphard.webp",
-  "/assets/images/section_car_commuter.webp",
+  "/assets/images/service/car_camry.webp",
+  "/assets/images/service/car_innova.webp",
+  "/assets/images/service/car_fortuner.webp",
+  "/assets/images/service/car_h1.webp",
+  "/assets/images/service/car_alphard.webp",
+  "/assets/images/service/car_commuter.webp",
 ];
 
 export function ChooseCarSection({ t }: { t: Translations }) {
